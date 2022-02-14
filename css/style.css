@@ -1,0 +1,85 @@
+*{
+
+	font-family: sans-serif;
+
+}
+.hero{
+	width: 100%;
+}
+.logo-nav{
+	width: 70px;
+}
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+.video-section{
+	width: 100%;
+	padding: auto;
+}
+.main-table{
+	width: 100%;
+}
+.img{
+	width: 400px;
+}
+.user-info{
+	width: 70%;
+	text-align: left;
+
+}
+.user-info p{
+
+	letter-spacing: 1px;
+	
+}
+h1{
+	font-size: 35px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+
+}
+
+.btn{
+
+	text-decoration: none;
+	background-color: gray;
+	padding: 10px 25px;
+	color: white;
+	font-weight: bold;
+	border-radius: 30px;
+	font-size: medium;
+	border: 2px solid transparent;
+}
+footer{
+	background: black;
+	height: 200px;
+	color: white;
+}
+.contact-section{
+	text-align:center;
+}
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.contact-form-text{
+	display: block;
+	width: 100%;
+	margin: 16px 0;
+	border: 1px solid transparent;
+	padding: 20px 40px;
+	background-color: gray;
+	color: #ddd;
+
+}
