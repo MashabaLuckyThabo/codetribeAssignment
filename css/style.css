@@ -3,11 +3,24 @@
 	font-family: sans-serif;
 
 }
+
+header{
+	width: 100%;
+	background-color: #101010;
+	height: 60px;
+}
 .hero{
 	width: 100%;
 }
-.logo-nav{
-	width: 70px;
+.topic-1{
+	color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+	color: red;
 }
 ul li{
 	list-style-type: none;
@@ -15,11 +28,14 @@ ul li{
 	margin-right: 20px;
 }
 ul li a{
+	color: white;
 	text-decoration: none;
 	text-transform: capitalize;
 	font-weight: bold;
-	cursor: pointer;
-	
+	cursor: pointer;	
+}
+ul li a:hover{
+	color: #f9004d;
 }
 .video-section{
 	width: 100%;
@@ -30,6 +46,38 @@ ul li a{
 }
 .img{
 	width: 400px;
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: black;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text p{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
 }
 .user-info{
 	width: 70%;
@@ -45,13 +93,12 @@ h1{
 	font-size: 35px;
 	text-transform: capitalize;
 	letter-spacing: 1px;
-
 }
 
 .btn{
 
 	text-decoration: none;
-	background-color: gray;
+	background-color: red;
 	padding: 10px 25px;
 	color: white;
 	font-weight: bold;
@@ -59,27 +106,73 @@ h1{
 	font-size: medium;
 	border: 2px solid transparent;
 }
-footer{
+/**   ---------------------------- About ---------------------------- */
+.contactForm{
+	width: 40%;
+	padding: 40px;
 	background: black;
-	height: 200px;
+}
+.contactForm h2{
+	font-size: 30px;
 	color: white;
+	font-weight: 500;
 }
-.contact-section{
-	text-align:center;
-}
-.contact-form{
-	max-width: 600px;
-	margin: auto;
-	padding: 0 10px;
-	overflow: hidden;
-}
-.contact-form-text{
-	display: block;
+.contactForm .inputBox {
+    position: relative;
 	width: 100%;
-	margin: 16px 0;
-	border: 1px solid transparent;
-	padding: 20px 40px;
-	background-color: gray;
-	color: #ddd;
+	margin-top:10px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: none;
+	border-bottom:2px solid red;
+	outline: none;
+	resize: none;
+}
+/** ------------------------------end of about us ----------------------- */
 
+
+
+
+
+
+footer{
+	color: white;
+	width: 100%;
+	height: 200px;
+	position: relative;
+	background: #101010;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	display: flex;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #420404;
+	border-radius: 50%;
+	margin: 11px 5px;
 }
